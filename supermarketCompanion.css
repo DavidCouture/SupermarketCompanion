@@ -3,6 +3,11 @@ body {
   background: linear-gradient(to left, #ec8ae3, #e8b2e3);
 }
 
+footer {
+  margin-top: 15px;
+  text-align: center;
+}
+
 h1 {
   text-align: center;
 }
@@ -63,6 +68,7 @@ tbody tr:hover {
   height: 20px;
   width: 100px;
   text-align: center;
+  cursor: pointer;
 }
 
 /* ID's */

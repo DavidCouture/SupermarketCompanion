@@ -9,7 +9,7 @@ const products = [
     {
         "Product": "Sliced Bread",
         "Manufacturer": "Ron's",
-        "J": 47,
+        "J": 48,
         "numInBox": 12,
         "boxesOnShelf": 2
     },
@@ -51,7 +51,7 @@ const products = [
     {
         "Product": "Cheese",
         "Manufacturer": "Comte",
-        "J": 33,
+        "J": 34,
         "numInBox": 9,
         "boxesOnShelf": 6
     },
@@ -254,14 +254,14 @@ const products = [
     {
         "Product": "Cheese Mozarella",
         "Manufacturer": "Don Bernardo",
-        "J": 34,
+        "J": 35,
         "numInBox": 9,
         "boxesOnShelf": 6
     },
     {
         "Product": "Cheese Parmesan",
         "Manufacturer": "Don Bernardo",
-        "J": 35,
+        "J": 36,
         "numInBox": 9,
         "boxesOnShelf": 6
     },
@@ -317,7 +317,7 @@ const products = [
     {
         "Product": "French Fries",
         "Manufacturer": "Vandame's",
-        "J": 66,
+        "J": 62,
         "numInBox": 12,
         "boxesOnShelf": 2
     },
@@ -338,7 +338,7 @@ const products = [
     {
         "Product": "Cheese",
         "Manufacturer": "Mimolette",
-        "J": 36,
+        "J": 37,
         "numInBox": 9,
         "boxesOnShelf": 6
     },
@@ -408,28 +408,28 @@ const products = [
     {
         "Product": "Steak",
         "Manufacturer": "Bovora",
-        "J": 40,
+        "J": 41,
         "numInBox": 32,
         "boxesOnShelf": 6
     },
     {
         "Product": "Sushi Large",
         "Manufacturer": "Ulego",
-        "J": 45,
+        "J": 46,
         "numInBox": 8,
         "boxesOnShelf": 2
     },
     {
         "Product": "Sushi Small",
         "Manufacturer": "Ulego",
-        "J": 44,
+        "J": 45,
         "numInBox": 16,
         "boxesOnShelf": 2
     },
     {
         "Product": "Veal Chop",
         "Manufacturer": "Bovora",
-        "J": 39,
+        "J": 40,
         "numInBox": 32,
         "boxesOnShelf": 6
     },
@@ -478,28 +478,28 @@ const products = [
     {
         "Product": "Beer Blonde Ale - 6 Pack",
         "Manufacturer": "Fess",
-        "J": 87,
+        "J": 83,
         "numInBox": 18,
         "boxesOnShelf": 2
     },
     {
         "Product": "Beer Blonde Ale - Keg",
         "Manufacturer": "Fess",
-        "J": 91,
+        "J": 90,
         "numInBox": 6,
         "boxesOnShelf": 1
     },
     {
         "Product": "Beer Blond Ale",
         "Manufacturer": "Fess",
-        "J": 89,
+        "J": 87,
         "numInBox": 15,
         "boxesOnShelf": 9
     },
     {
         "Product": "Beer Lager",
         "Manufacturer": "Teochew",
-        "J": 90,
+        "J": 88,
         "numInBox": 15,
         "boxesOnShelf": 9
     },
@@ -520,7 +520,7 @@ const products = [
     {
         "Product": "Vodka",
         "Manufacturer": "Eay",
-        "J": 88,
+        "J": 81,
         "numInBox": 12,
         "boxesOnShelf": 2
     },
@@ -562,7 +562,7 @@ const products = [
     {
         "Product": "Sandwich Bread",
         "Manufacturer": "Ron's",
-        "J": 46,
+        "J": 47,
         "numInBox": 8,
         "boxesOnShelf": 2
     },
@@ -653,7 +653,7 @@ const products = [
     {
         "Product": "Sugar Light Brown",
         "Manufacturer": "Daron",
-        "J": 48,
+        "J": 33,
         "numInBox": 12,
         "boxesOnShelf": 6
     },
@@ -667,7 +667,7 @@ const products = [
     {
         "Product": "Ground Beef",
         "Manufacturer": "Bovora",
-        "J": 41,
+        "J": 42,
         "numInBox": 20,
         "boxesOnShelf": 6
     },
@@ -681,7 +681,7 @@ const products = [
     {
         "Product": "Ham",
         "Manufacturer": "B&K",
-        "J": 42,
+        "J": 43,
         "numInBox": 20,
         "boxesOnShelf": 6
     },
@@ -702,7 +702,7 @@ const products = [
     {
         "Product": "Chicken Leg",
         "Manufacturer": "Bovora",
-        "J": 43,
+        "J": 44,
         "numInBox": 16,
         "boxesOnShelf": 6
     },
@@ -751,14 +751,14 @@ const products = [
     {
         "Product": "Beer Blonde Ale",
         "Manufacturer": "BK",
-        "J": 84,
+        "J": 89,
         "numInBox": 15,
         "boxesOnShelf": 9
     },
     {
         "Product": "Beer Lager - 6 Pack",
         "Manufacturer": "Teochew",
-        "J": 83,
+        "J": 84,
         "numInBox": 18,
         "boxesOnShelf": 2
     },
@@ -772,7 +772,7 @@ const products = [
     {
         "Product": "Vodka",
         "Manufacturer": "Magnat",
-        "J": 81,
+        "J": 82,
         "numInBox": 12,
         "boxesOnShelf": 2
     },
@@ -786,21 +786,21 @@ const products = [
     {
         "Product": "Wine",
         "Manufacturer": "Chebon",
-        "J": 82,
+        "J": 91,
         "numInBox": 12,
         "boxesOnShelf": 2
     },
     {
         "Product": "Cheese Parmesan",
         "Manufacturer": "Eros",
-        "J": 37,
+        "J": 38,
         "numInBox": 9,
         "boxesOnShelf": 6
     },
     {
         "Product": "Cheese",
         "Manufacturer": "Gruyere",
-        "J": 38,
+        "J": 39,
         "numInBox": 9,
         "boxesOnShelf": 6
     },
@@ -837,7 +837,7 @@ const products = [
         "Manufacturer": "Madone",
         "J": 56,
         "numInBox": 30,
-        "boxesOnShelf": 9
+        "boxesOnShelf": 6
     },
     {
         "Product": "Cleaner",
@@ -912,7 +912,7 @@ const products = [
     {
         "Product": "Cleaner",
         "Manufacturer": "Le Triangle",
-        "J": 62,
+        "J": 66,
         "numInBox": 12,
         "boxesOnShelf": 6
     },
