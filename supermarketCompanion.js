@@ -26,6 +26,7 @@ function populateTable() {
   let quantity = null
   let quantityMinus = null
   let quantityPlus = null
+  let quantityMax = null
   let total = null
   const selectedTab = document.querySelector(".selected")
   
@@ -41,8 +42,10 @@ function populateTable() {
     quantity = document.createElement("td")
     quantityMinus = document.createElement("button")
     quantityPlus = document.createElement("button")
+    quantityMax = document.createElement("button")
     quantityMinus.textContent = "-"
     quantityPlus.textContent = "+"
+    quantityMax.textContent = "Max"
     total = document.createElement("td")
     
     // add data to table elements
@@ -66,6 +69,7 @@ function populateTable() {
     // implement quantity function
     quantityMinus.addEventListener("click", changeQuantity)
     quantityPlus.addEventListener("click", changeQuantity)
+    quantityMax.addEventListener("click", changeQuantity)
     
     // add elements to the DOM
     tableRow.appendChild(listNum)
@@ -76,6 +80,7 @@ function populateTable() {
     quantityDiv.classList.add("quantity")
     quantityDiv.appendChild(quantityMinus)
     quantityDiv.appendChild(quantityPlus)
+    quantityDiv.appendChild(quantityMax)
     quantity.appendChild(quantityDiv)
     tableRow.appendChild(quantity)
     tableRow.appendChild(total)
@@ -105,8 +110,11 @@ function changeQuantity() {
   let newTotal = Number.parseInt(this.parentElement.parentElement.parentElement.lastElementChild.textContent, 10)
   if (this.textContent == "+") {
     newTotal += 1
-  } else {
+  } else if (this.textContent == "-") {
     newTotal > 0 ? newTotal -= 1 : newTotal = 0
+  } else if (this.textContent == "Max") {
+    // insert max button functionality here
+    newTotal = this.parentElement.parentElement.previousElementSibling.textContent
   }
   this.parentElement.parentElement.parentElement.lastElementChild.textContent = newTotal
 }
