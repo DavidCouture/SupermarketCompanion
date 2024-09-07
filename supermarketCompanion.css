@@ -10,6 +10,9 @@ footer {
 
 h1 {
   text-align: center;
+  color: darkgreen;
+  font-size: 3rem;
+  margin-bottom: 0;
 }
 
 main {
@@ -69,6 +72,13 @@ tbody tr:hover {
   width: 100px;
   text-align: center;
   cursor: pointer;
+}
+
+/* External fonts */
+.nerko-one-regular {
+  font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* ID's */

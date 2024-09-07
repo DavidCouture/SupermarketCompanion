@@ -9,21 +9,21 @@ const products = [
     {
         "Product": "Sliced Bread",
         "Manufacturer": "Ron's",
-        "J": 48,
+        "J": 46,
         "numInBox": 12,
         "boxesOnShelf": 2
     },
     {
         "Product": "Flour",
         "Manufacturer": "Kraftung",
-        "J": 7,
+        "J": 8,
         "numInBox": 8,
         "boxesOnShelf": 2
     },
     {
         "Product": "Oil",
         "Manufacturer": "Lespieds",
-        "J": 15,
+        "J": 13,
         "numInBox": 12,
         "boxesOnShelf": 6
     },
@@ -37,7 +37,7 @@ const products = [
     {
         "Product": "Sugar Powdered",
         "Manufacturer": "Susu",
-        "J": 28,
+        "J": 27,
         "numInBox": 12,
         "boxesOnShelf": 2
     },
@@ -51,7 +51,7 @@ const products = [
     {
         "Product": "Cheese",
         "Manufacturer": "Comte",
-        "J": 34,
+        "J": 33,
         "numInBox": 9,
         "boxesOnShelf": 6
     },
@@ -79,21 +79,21 @@ const products = [
     {
         "Product": "Tea Black",
         "Manufacturer": "TeaPalace",
-        "J": 115,
+        "J": 114,
         "numInBox": 20,
         "boxesOnShelf": 6
     },
     {
         "Product": "Peanut Butter",
         "Manufacturer": "PB's",
-        "J": 0,
+        "J": 1,
         "numInBox": 12,
         "boxesOnShelf": 6
     },
     {
         "Product": "Flour",
         "Manufacturer": "Farine",
-        "J": 8,
+        "J": 9,
         "numInBox": 8,
         "boxesOnShelf": 2
     },
@@ -114,7 +114,7 @@ const products = [
     {
         "Product": "Rice Basmati",
         "Manufacturer": "Lustupacru",
-        "J": 49,
+        "J": 48,
         "numInBox": 10,
         "boxesOnShelf": 6
     },
@@ -135,14 +135,14 @@ const products = [
     {
         "Product": "Soda",
         "Manufacturer": "Cola",
-        "J": 97,
+        "J": 92,
         "numInBox": 24,
         "boxesOnShelf": 2
     },
     {
         "Product": "Soda",
         "Manufacturer": "Zap",
-        "J": 98,
+        "J": 93,
         "numInBox": 24,
         "boxesOnShelf": 2
     },
@@ -163,21 +163,21 @@ const products = [
     {
         "Product": "Soda",
         "Manufacturer": "Turko",
-        "J": 96,
+        "J": 94,
         "numInBox": 24,
         "boxesOnShelf": 2
     },
     {
         "Product": "Cake",
         "Manufacturer": "Bon Papa",
-        "J": 19,
+        "J": 137,
         "numInBox": 15,
         "boxesOnShelf": 6
     },
     {
         "Product": "Cake",
         "Manufacturer": "Pepites",
-        "J": 18,
+        "J": 138,
         "numInBox": 18,
         "boxesOnShelf": 6
     },
@@ -212,7 +212,7 @@ const products = [
     {
         "Product": "Bleach",
         "Manufacturer": "Jaja Vevel",
-        "J": 78,
+        "J": 77,
         "numInBox": 8,
         "boxesOnShelf": 1
     },
@@ -226,7 +226,7 @@ const products = [
     {
         "Product": "Dishwasher Tablet",
         "Manufacturer": "Cleandish",
-        "J": 76,
+        "J": 75,
         "numInBox": 12,
         "boxesOnShelf": 2
     },
@@ -240,28 +240,28 @@ const products = [
     {
         "Product": "Shampoo",
         "Manufacturer": "Kaya",
-        "J": 73,
+        "J": 74,
         "numInBox": 12,
         "boxesOnShelf": 6
     },
     {
         "Product": "Toiletpaper",
         "Manufacturer": "Poudou",
-        "J": 70,
+        "J": 69,
         "numInBox": 4,
         "boxesOnShelf": 1
     },
     {
         "Product": "Cheese Mozarella",
         "Manufacturer": "Don Bernardo",
-        "J": 35,
+        "J": 34,
         "numInBox": 9,
         "boxesOnShelf": 6
     },
     {
         "Product": "Cheese Parmesan",
         "Manufacturer": "Don Bernardo",
-        "J": 36,
+        "J": 35,
         "numInBox": 9,
         "boxesOnShelf": 6
     },
@@ -280,7 +280,7 @@ const products = [
         "boxesOnShelf": 2
     },
     {
-        "Product": "Eggs-4 Pack",
+        "Product": "Eggs - 4 Pack",
         "Manufacturer": "Bio",
         "J": 123,
         "numInBox": 12,
@@ -289,14 +289,14 @@ const products = [
     {
         "Product": "Sugar Powdered",
         "Manufacturer": "Pablo",
-        "J": 30,
+        "J": 29,
         "numInBox": 12,
         "boxesOnShelf": 6
     },
     {
         "Product": "Butter",
         "Manufacturer": "Paysans",
-        "J": 13,
+        "J": 12,
         "numInBox": 24,
         "boxesOnShelf": 9
     },
@@ -310,7 +310,7 @@ const products = [
     {
         "Product": "Chicken",
         "Manufacturer": "Mwef",
-        "J": 12,
+        "J": 11,
         "numInBox": 4,
         "boxesOnShelf": 1
     },
@@ -331,14 +331,14 @@ const products = [
     {
         "Product": "Potato Bag",
         "Manufacturer": "Miam",
-        "J": 16,
+        "J": 15,
         "numInBox": 4,
         "boxesOnShelf": 1
     },
     {
         "Product": "Cheese",
         "Manufacturer": "Mimolette",
-        "J": 37,
+        "J": 36,
         "numInBox": 9,
         "boxesOnShelf": 6
     },
@@ -357,7 +357,7 @@ const products = [
         "boxesOnShelf": 2
     },
     {
-        "Product": "Eggs-12 Pack",
+        "Product": "Eggs - 12 Pack",
         "Manufacturer": "Bio",
         "J": 125,
         "numInBox": 12,
@@ -373,112 +373,112 @@ const products = [
     {
         "Product": "Sugar Brown",
         "Manufacturer": "Susu",
-        "J": 29,
+        "J": 28,
         "numInBox": 12,
         "boxesOnShelf": 2
     },
     {
         "Product": "Tea Green",
         "Manufacturer": "TeaPalace",
-        "J": 114,
+        "J": 115,
         "numInBox": 20,
         "boxesOnShelf": 6
     },
     {
         "Product": "Moussaka",
         "Manufacturer": "Ronpoint",
-        "J": 22,
+        "J": 21,
         "numInBox": 24,
         "boxesOnShelf": 2
     },
     {
         "Product": "Salmon",
         "Manufacturer": "NordicHarbor",
-        "J": 26,
+        "J": 25,
         "numInBox": 20,
         "boxesOnShelf": 6
     },
     {
         "Product": "Scallop Gratin",
         "Manufacturer": "Prypiat",
-        "J": 20,
+        "J": 19,
         "numInBox": 24,
         "boxesOnShelf": 2
     },
     {
         "Product": "Steak",
         "Manufacturer": "Bovora",
-        "J": 41,
+        "J": 40,
         "numInBox": 32,
         "boxesOnShelf": 6
     },
     {
         "Product": "Sushi Large",
         "Manufacturer": "Ulego",
-        "J": 46,
+        "J": 45,
         "numInBox": 8,
         "boxesOnShelf": 2
     },
     {
         "Product": "Sushi Small",
         "Manufacturer": "Ulego",
-        "J": 45,
+        "J": 44,
         "numInBox": 16,
         "boxesOnShelf": 2
     },
     {
         "Product": "Veal Chop",
         "Manufacturer": "Bovora",
-        "J": 40,
+        "J": 39,
         "numInBox": 32,
         "boxesOnShelf": 6
     },
     {
         "Product": "Crab Stick",
         "Manufacturer": "Sans",
-        "J": 21,
+        "J": 20,
         "numInBox": 24,
         "boxesOnShelf": 2
     },
     {
         "Product": "Hot Sauce",
         "Manufacturer": "Hothot",
-        "J": 1,
+        "J": 2,
         "numInBox": 12,
         "boxesOnShelf": 6
     },
     {
         "Product": "Icecream Chocolate",
         "Manufacturer": "MaxiCone",
-        "J": 5,
+        "J": 6,
         "numInBox": 24,
         "boxesOnShelf": 2
     },
     {
         "Product": "Ketchup",
         "Manufacturer": "Kekette",
-        "J": 2,
+        "J": 3,
         "numInBox": 12,
         "boxesOnShelf": 6
     },
     {
         "Product": "Mayonnaise",
         "Manufacturer": "Yoyo",
-        "J": 3,
+        "J": 4,
         "numInBox": 12,
         "boxesOnShelf": 6
     },
     {
         "Product": "Pizza Cheddar",
         "Manufacturer": "ChezzyPizz",
-        "J": 61,
+        "J": 60,
         "numInBox": 32,
         "boxesOnShelf": 2
     },
     {
         "Product": "Beer Blonde Ale - 6 Pack",
         "Manufacturer": "Fess",
-        "J": 83,
+        "J": 84,
         "numInBox": 18,
         "boxesOnShelf": 2
     },
@@ -506,7 +506,7 @@ const products = [
     {
         "Product": "Chips",
         "Manufacturer": "Covidos",
-        "J": 10,
+        "J": 16,
         "numInBox": 16,
         "boxesOnShelf": 2
     },
@@ -527,21 +527,21 @@ const products = [
     {
         "Product": "Chips",
         "Manufacturer": "Chipos",
-        "J": 11,
+        "J": 17,
         "numInBox": 16,
         "boxesOnShelf": 2
     },
     {
         "Product": "Flour",
         "Manufacturer": "Sublett's",
-        "J": 9,
+        "J": 10,
         "numInBox": 8,
         "boxesOnShelf": 2
     },
     {
         "Product": "Mashed Potatoes",
         "Manufacturer": "Puray",
-        "J": 17,
+        "J": 51,
         "numInBox": 12,
         "boxesOnShelf": 6
     },
@@ -555,7 +555,7 @@ const products = [
     {
         "Product": "Rice",
         "Manufacturer": "Elo",
-        "J": 50,
+        "J": 49,
         "numInBox": 10,
         "boxesOnShelf": 6
     },
@@ -569,14 +569,14 @@ const products = [
     {
         "Product": "Sugar Powdered",
         "Manufacturer": "Boully",
-        "J": 31,
+        "J": 30,
         "numInBox": 12,
         "boxesOnShelf": 6
     },
     {
         "Product": "Bleach",
         "Manufacturer": "WC Boeff",
-        "J": 77,
+        "J": 78,
         "numInBox": 6,
         "boxesOnShelf": 1
     },
@@ -590,7 +590,7 @@ const products = [
     {
         "Product": "Dishwasher Tablet",
         "Manufacturer": "Boum",
-        "J": 75,
+        "J": 76,
         "numInBox": 12,
         "boxesOnShelf": 2
     },
@@ -625,84 +625,84 @@ const products = [
     {
         "Product": "Soda",
         "Manufacturer": "JusTsistu",
-        "J": 93,
-        "numInBox": 24,
-        "boxesOnShelf": 2
-    },
-    {
-        "Product": "Soda",
-        "Manufacturer": "Kouje",
-        "J": 92,
-        "numInBox": 24,
-        "boxesOnShelf": 2
-    },
-    {
-        "Product": "Soda",
-        "Manufacturer": "Pulp",
         "J": 95,
         "numInBox": 24,
         "boxesOnShelf": 2
     },
     {
         "Product": "Soda",
+        "Manufacturer": "Kouje",
+        "J": 96,
+        "numInBox": 24,
+        "boxesOnShelf": 2
+    },
+    {
+        "Product": "Soda",
+        "Manufacturer": "Pulp",
+        "J": 97,
+        "numInBox": 24,
+        "boxesOnShelf": 2
+    },
+    {
+        "Product": "Soda",
         "Manufacturer": "Ropico",
-        "J": 94,
+        "J": 98,
         "numInBox": 24,
         "boxesOnShelf": 2
     },
     {
         "Product": "Sugar Light Brown",
         "Manufacturer": "Daron",
-        "J": 33,
+        "J": 32,
         "numInBox": 12,
         "boxesOnShelf": 6
     },
     {
         "Product": "Galette Ham & Cheese",
         "Manufacturer": "Prypiat",
-        "J": 25,
+        "J": 24,
         "numInBox": 24,
         "boxesOnShelf": 2
     },
     {
         "Product": "Ground Beef",
         "Manufacturer": "Bovora",
-        "J": 42,
+        "J": 41,
         "numInBox": 20,
         "boxesOnShelf": 6
     },
     {
         "Product": "Ham Pastry",
         "Manufacturer": "Ronpoint",
-        "J": 23,
+        "J": 22,
         "numInBox": 24,
         "boxesOnShelf": 2
     },
     {
         "Product": "Ham",
         "Manufacturer": "B&K",
-        "J": 43,
+        "J": 42,
         "numInBox": 20,
         "boxesOnShelf": 6
     },
     {
         "Product": "Lasagne",
         "Manufacturer": "Ronpoint",
-        "J": 24,
+        "J": 23,
         "numInBox": 24,
         "boxesOnShelf": 2
     },
     {
         "Product": "Proscuito",
         "Manufacturer": "Sapore",
-        "J": 27,
+        "J": 26,
         "numInBox": 20,
         "boxesOnShelf": 6
     },
     {
         "Product": "Chicken Leg",
         "Manufacturer": "Bovora",
-        "J": 44,
+        "J": 43,
         "numInBox": 16,
         "boxesOnShelf": 6
     },
@@ -716,21 +716,21 @@ const products = [
     {
         "Product": "Icecream Vanilla",
         "Manufacturer": "MaxiCone",
-        "J": 6,
+        "J": 7,
         "numInBox": 24,
         "boxesOnShelf": 2
     },
     {
         "Product": "Icecream",
         "Manufacturer": "Bonbek",
-        "J": 4,
+        "J": 5,
         "numInBox": 24,
         "boxesOnShelf": 2
     },
     {
         "Product": "Pizza",
         "Manufacturer": "Bigtony",
-        "J": 60,
+        "J": 61,
         "numInBox": 32,
         "boxesOnShelf": 2
     },
@@ -758,7 +758,7 @@ const products = [
     {
         "Product": "Beer Lager - 6 Pack",
         "Manufacturer": "Teochew",
-        "J": 84,
+        "J": 85,
         "numInBox": 18,
         "boxesOnShelf": 2
     },
@@ -779,7 +779,7 @@ const products = [
     {
         "Product": "Whiskey",
         "Manufacturer": "Grand Marnier",
-        "J": 85,
+        "J": 83,
         "numInBox": 12,
         "boxesOnShelf": 2
     },
@@ -793,14 +793,14 @@ const products = [
     {
         "Product": "Cheese Parmesan",
         "Manufacturer": "Eros",
-        "J": 38,
+        "J": 37,
         "numInBox": 9,
         "boxesOnShelf": 6
     },
     {
         "Product": "Cheese",
         "Manufacturer": "Gruyere",
-        "J": 39,
+        "J": 38,
         "numInBox": 9,
         "boxesOnShelf": 6
     },
@@ -821,14 +821,14 @@ const products = [
     {
         "Product": "Rice",
         "Manufacturer": "UncleTony's",
-        "J": 51,
+        "J": 50,
         "numInBox": 10,
         "boxesOnShelf": 6
     },
     {
         "Product": "Sugar Cane",
         "Manufacturer": "Daron",
-        "J": 32,
+        "J": 31,
         "numInBox": 12,
         "boxesOnShelf": 2
     },
@@ -856,56 +856,56 @@ const products = [
     {
         "Product": "Dish Soap Lemon",
         "Manufacturer": "Mouss",
-        "J": 74,
+        "J": 73,
         "numInBox": 12,
         "boxesOnShelf": 6
     },
     {
         "Product": "Fabric Softener",
         "Manufacturer": "Souplesse",
-        "J": 69,
+        "J": 70,
         "numInBox": 12,
         "boxesOnShelf": 1
     },
     {
         "Product": "Book",
         "Manufacturer": "ABC",
-        "J": 128,
-        "numInBox": 8,
-        "boxesOnShelf": 6
-    },
-    {
-        "Product": "Book",
-        "Manufacturer": "Colors",
         "J": 129,
         "numInBox": 8,
         "boxesOnShelf": 6
     },
     {
         "Product": "Book",
-        "Manufacturer": "Donnine",
+        "Manufacturer": "Colors",
         "J": 130,
         "numInBox": 8,
         "boxesOnShelf": 6
     },
     {
         "Product": "Book",
-        "Manufacturer": "Electromagnetic Field",
+        "Manufacturer": "Donnine",
         "J": 131,
         "numInBox": 8,
         "boxesOnShelf": 6
     },
     {
         "Product": "Book",
-        "Manufacturer": "I Won't Share",
+        "Manufacturer": "Electromagnetic Field",
         "J": 132,
         "numInBox": 8,
         "boxesOnShelf": 6
     },
     {
         "Product": "Book",
-        "Manufacturer": "Mother And Child",
+        "Manufacturer": "I Won't Share",
         "J": 133,
+        "numInBox": 8,
+        "boxesOnShelf": 6
+    },
+    {
+        "Product": "Book",
+        "Manufacturer": "Mother And Child",
+        "J": 134,
         "numInBox": 8,
         "boxesOnShelf": 6
     },
@@ -940,49 +940,49 @@ const products = [
     {
         "Product": "Cake",
         "Manufacturer": "Gerbe",
-        "J": null,
+        "J": 139,
         "numInBox": 15,
         "boxesOnShelf": 6
     },
     {
         "Product": "Cake",
         "Manufacturer": "Marbre",
-        "J": null,
+        "J": 140,
         "numInBox": 18,
         "boxesOnShelf": 6
     },
     {
         "Product": "Chips",
         "Manufacturer": "Vin's",
-        "J": null,
+        "J": 18,
         "numInBox": 16,
         "boxesOnShelf": 2
     },
     {
         "Product": "Chocolate Spread",
         "Manufacturer": "Patatartine",
-        "J": null,
+        "J": 0,
         "numInBox": 12,
         "boxesOnShelf": 6
     },
     {
         "Product": "Soda Can - 6 Pack",
         "Manufacturer": "Cola",
-        "J": null,
+        "J": 135,
         "numInBox": 24,
         "boxesOnShelf": 1
     },
     {
         "Product": "Soda Can - 6 Pack",
         "Manufacturer": "Zap",
-        "J": null,
+        "J": 136,
         "numInBox": 24,
         "boxesOnShelf": 1
     },
     {
         "Product": "Bottled Water",
         "Manufacturer": "Fort-lacs",
-        "J": null,
+        "J": 128,
         "numInBox": 16,
         "boxesOnShelf": 2
     },
