@@ -97,6 +97,7 @@ function changeSelection() {
   this.classList.add("selected")
   this.classList.remove("nonselected")
   resetTable()
+  showPaintColors(this)
 }
 
 function addSelectors() {
@@ -113,8 +114,10 @@ function changeQuantity() {
   } else if (this.textContent == "-") {
     newTotal > 0 ? newTotal -= 1 : newTotal = 0
   } else if (this.textContent == "Max") {
-    // insert max button functionality here
     newTotal = this.parentElement.parentElement.previousElementSibling.textContent
+    if (this.parentElement.parentElement.previousElementSibling.textContent == 1) {
+      newTotal = 4
+    }
   }
   this.parentElement.parentElement.parentElement.lastElementChild.textContent = newTotal
 }
@@ -148,4 +151,16 @@ function createJustinTableOrder() {
 // Reset Price Changes text area to blank
 function resetPriceChanges() {
   document.getElementById("priceChanges").value = ""
+}
+
+// Show or hide paint colors by order number for Justin based on selected tab
+function showPaintColors(thisObject) {
+  const tags = document.querySelectorAll(".paint-colors")
+  for (tag of tags) {
+    if (thisObject.textContent == "Justin") {
+      tag.classList.remove("hidden")
+    } else {
+      tag.classList.add("hidden")
+    } 
+  }
 }

@@ -74,6 +74,10 @@ tbody tr:hover {
   cursor: pointer;
 }
 
+.hidden {
+  display: none;
+}
+
 /* External fonts */
 .nerko-one-regular {
   font-family: "Nerko One", cursive;
