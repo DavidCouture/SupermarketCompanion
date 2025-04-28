@@ -1,20 +1,21 @@
 // SELECTORS
-const tableBody = document.querySelector("tbody")
-const tabs = document.querySelectorAll(".tab")
-const myTest = document.getElementById("startButton")
 const resetBtn = document.getElementById("resetBtn")
 
-// CONSTANTS
-const justinTableOrder = []
-
 // EXECUTION
-createJustinTableOrder()
 populateTable()
-addSelectors()
 resetBtn.addEventListener("click", resetTable)
 resetBtn.addEventListener("click", resetPriceChanges)
+addTableButtons()
 
 // FUNCTIONS
+// function populateAllTables() {
+//   const orderProducts = []
+//   // how many things belong to each market?
+//   for (product of products) {
+//     // for ()
+//   }
+// }
+
 function populateTable() {
   let listNum = null
   let product = null
@@ -28,8 +29,30 @@ function populateTable() {
   let quantityPlus = null
   let quantityMax = null
   let total = null
-  const selectedTab = document.querySelector(".selected")
   
+  const markets = {
+    "meatAndDairy": document.getElementById("meatAndDairy"),
+    "greenMarket": document.getElementById("greenMarket"),
+    "janitorialSupply": document.getElementById("janitorialSupply"),
+    "liquorStore": document.getElementById("liquorStore"),
+    "deliAndGrocery": document.getElementById("deliAndGrocery")
+  }
+  const marketCounts = {
+    "meatAndDairy": 1,
+    "greenMarket": 1,
+    "janitorialSupply": 1,
+    "liquorStore": 1,
+    "deliAndGrocery": 1
+  }
+  const marketTableOrder = {
+    "meatAndDairy": {},
+    "greenMarket": {},
+    "janitorialSupply": {},
+    "liquorStore": {},
+    "deliAndGrocery": {}
+  }
+  const marketNames = Object.keys(marketTableOrder)
+
   for (let i = 0; i < products.length; i++){
     // make table elements
     tableRow = document.createElement("tr")
@@ -45,25 +68,17 @@ function populateTable() {
     quantityMax = document.createElement("button")
     quantityMinus.textContent = "-"
     quantityPlus.textContent = "+"
-    quantityMax.textContent = "Max"
+    quantityMax.textContent = "Zero"
     total = document.createElement("td")
     
     // add data to table elements
-    listNum.textContent = i + 1
-    if (selectedTab.textContent == "Dave") {
-      product.textContent = products[i]["Product"]
-      manufacturer.textContent = products[i]["Manufacturer"]
-      numInBox.textContent = products[i]["numInBox"]
-      boxesOnShelf.textContent = products[i]["boxesOnShelf"]
-    } else if (selectedTab.textContent == "Justin") {
-      if (i >= justinTableOrder.length) {
-        continue
-      }
-      product.textContent = justinTableOrder[i]["Product"]
-      manufacturer.textContent = justinTableOrder[i]["Manufacturer"]
-      numInBox.textContent = justinTableOrder[i]["numInBox"]
-      boxesOnShelf.textContent = justinTableOrder[i]["boxesOnShelf"]
-    }
+    listNum.textContent = products[i]["J"]
+    
+    product.textContent = products[i]["Product"]
+    manufacturer.textContent = products[i]["Manufacturer"]
+    numInBox.textContent = products[i]["numInBox"]
+    boxesOnShelf.textContent = products[i]["boxesOnShelf"]
+    
     total.textContent = "0"
 
     // implement quantity function
@@ -84,68 +99,64 @@ function populateTable() {
     quantity.appendChild(quantityDiv)
     tableRow.appendChild(quantity)
     tableRow.appendChild(total)
-    tableBody.appendChild(tableRow)
+    tableRow.classList.add(products[i]["color"])
+    // for (market in markets) {
+    //   if (products[i]["market"] == markets[market]["id"]) {
+    //     markets[market].appendChild(tableRow)
+    //   }
+    // }
+    for (market in markets) {
+      if (products[i]["market"] == markets[market]["id"]) {
+        marketTableOrder[products[i]["market"]][products[i]["J"]] = tableRow
+      }
+    }
   }
-}
-
-// Tab switcher from Dave <--> Justin
-function changeSelection() {
-  for (tab of tabs) {
-    tab.classList.remove("selected")
-    tab.classList.add("nonselected")
+  // console.log(typeof(marketTableOrder))
+  // console.log(typeof(marketTableOrder["deliAndGrocery"]))
+  // console.log(marketTableOrder["deliAndGrocery"]["67"])
+  for (let j = 1; j <= 23; j++) {
+    markets["meatAndDairy"].appendChild(marketTableOrder["meatAndDairy"][j])
   }
-  this.classList.add("selected")
-  this.classList.remove("nonselected")
-  resetTable()
-  showPaintColors(this)
-}
-
-function addSelectors() {
-  for (tab of tabs) {
-    tab.addEventListener("click", changeSelection)
+  for (let j = 1; j <= 23; j++) {
+    markets["greenMarket"].appendChild(marketTableOrder["greenMarket"][j])
   }
+  for (let j = 1; j <= 21; j++) {
+    markets["janitorialSupply"].appendChild(marketTableOrder["janitorialSupply"][j])
+  }
+  for (let j = 1; j <= 17; j++) {
+    markets["liquorStore"].appendChild(marketTableOrder["liquorStore"][j])
+  }
+  for (let j = 1; j <= 102; j++) {
+    markets["deliAndGrocery"].appendChild(marketTableOrder["deliAndGrocery"][j])
+  }
+  
+  return marketTableOrder
 }
 
 // Quantity functionality
 function changeQuantity() {
-  let newTotal = Number.parseInt(this.parentElement.parentElement.parentElement.lastElementChild.textContent, 10)
+  const selectedElement = this.parentElement.parentElement.parentElement.lastElementChild
+  let newTotal = Number.parseInt(selectedElement.textContent, 10)
   if (this.textContent == "+") {
     newTotal += 1
   } else if (this.textContent == "-") {
     newTotal > 0 ? newTotal -= 1 : newTotal = 0
-  } else if (this.textContent == "Max") {
-    newTotal = this.parentElement.parentElement.previousElementSibling.textContent
-    if (this.parentElement.parentElement.previousElementSibling.textContent == 1) {
-      newTotal = 4
-    }
+  } else if (this.textContent == "Zero") {
+    newTotal = 0
   }
-  this.parentElement.parentElement.parentElement.lastElementChild.textContent = newTotal
+  selectedElement.textContent = newTotal
+  newTotal == 0 ? selectedElement.classList.remove("nonzero") : selectedElement.classList.add("nonzero")
 }
 
 // Reset Button functionality
 function resetTable() {
-  while (tableBody.firstChild) {
-    tableBody.removeChild(tableBody.firstChild)
+  marketTables = document.querySelectorAll("tbody")
+  for (table of marketTables) {
+    while (table.firstChild) {
+      table.removeChild(table.firstChild)
+    }
   }
   populateTable()
-}
-
-// Create Justin's Table Order
-function createJustinTableOrder() {
-  let product = null
-  let manufacturer = null
-  let numInBox = null
-  let boxesOnShelf = null
-  for (let i = 0; i < products.length; i++) {
-    if (products[products[i]["J"]] == null) {
-      continue
-    }
-    product = products[i]["Product"]
-    manufacturer = products[i]["Manufacturer"]
-    numInBox = products[i]["numInBox"]
-    boxesOnShelf = products[i]["boxesOnShelf"]
-    justinTableOrder[products[i]["J"]] = {"Product": product, "Manufacturer": manufacturer, "numInBox": numInBox, "boxesOnShelf": boxesOnShelf}
-  }
 }
 
 // Reset Price Changes text area to blank
@@ -153,14 +164,34 @@ function resetPriceChanges() {
   document.getElementById("priceChanges").value = ""
 }
 
-// Show or hide paint colors by order number for Justin based on selected tab
-function showPaintColors(thisObject) {
-  const tags = document.querySelectorAll(".paint-colors")
-  for (tag of tags) {
-    if (thisObject.textContent == "Justin") {
-      tag.classList.remove("hidden")
-    } else {
-      tag.classList.add("hidden")
-    } 
+// Add buttons to each table
+function addTableButtons() {
+  const resetTableButtons = document.querySelectorAll(".resetTable") 
+  const resetBlueAndGreen = document.querySelectorAll(".resetBlueAndGreen") 
+  for (btn of resetTableButtons) {
+    btn.addEventListener("click", resetOneTable)
+  }
+  for (btn of resetBlueAndGreen) {
+    btn.addEventListener("click", resetBlueGreen)
+  }
+}
+
+// reset each table
+function resetOneTable() {
+  const tableNode = this.parentElement.parentElement.childNodes[3].childNodes[3].childNodes
+  for (let i = 1; i < tableNode.length; i++) {
+    tableNode[i].childNodes[6].textContent = 0
+    tableNode[i].childNodes[6].classList.remove("nonzero")
+  }
+}
+
+// reset blues and greens in each table
+function resetBlueGreen() {
+  const tableNode = this.parentElement.parentElement.childNodes[3].childNodes[3].childNodes
+  for (let i = 1; i < tableNode.length; i++) {
+    if (tableNode[i].classList[0] == "blue" || tableNode[i].classList[0] == "green") {
+      tableNode[i].childNodes[6].textContent = 0
+      tableNode[i].childNodes[6].classList.remove("nonzero")
+    }
   }
 }

@@ -3,6 +3,14 @@ body {
   background: linear-gradient(to left, #ec8ae3, #e8b2e3);
 }
 
+li {
+  font-size: 2rem;
+}
+
+ul {
+  list-style: none;
+}
+
 footer {
   margin-top: 15px;
   text-align: center;
@@ -22,11 +30,6 @@ main {
 
 }
 
-/* main > div {
-  align-self:first baseline;
-  width: 80%;
-} */
-
 table {
   border-collapse: collapse;
   background-color: white;
@@ -43,12 +46,13 @@ th, td {
 }
 
 /* Pseudo Classes */
-tr:nth-child(even) {
+/* tr:nth-child(even) {
   background-color: #D0D0D0;
-}
+} */
 
 tbody tr:hover {
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
+  border: 3px purple solid;
 }
 
 /* Classes */
@@ -65,17 +69,25 @@ tbody tr:hover {
   background-color: white;
 }
 
-.tab {
-  display: inline-block;
-  border: 1px solid black;
-  height: 20px;
-  width: 100px;
-  text-align: center;
-  cursor: pointer;
+.green {
+  background-color: greenyellow;
+}
+.blue {
+  background-color: rgba(116, 116, 231, 50%);
+}
+.red {
+  background-color: rgba(234, 12, 12, 50%);
+}
+.yellow {
+  background-color: yellow;
 }
 
-.hidden {
-  display: none;
+.nonzero {
+  font-size: 1.2rem;
+  background:
+  linear-gradient(217deg, rgba(255, 0, 0, 0.8), rgba(255, 0, 0, 0) 70.71%),
+  linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
+  linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
 }
 
 /* External fonts */

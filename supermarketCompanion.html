@@ -13,29 +13,123 @@
   <h1 class="nerko-one-regular">Supermarket Simulator Companion</h1>
   <main>
     <button id="resetBtn">Reset All</button>
-    <p class="paint-colors hidden">Justin's paint color for the main room is number 25.</p>
-    <p class="paint-colors hidden">Justin's paint color for storage is number 11.</p>
+    <h2>Justin Paint Colors</h2>
+    <ul>
+      <li>Main room: 25</li>
+      <li>Storage: 11</li>
+    </ul>
     <label for="priceChanges">Note Price Changes Here</label>
     <textarea name="priceChanges" id="priceChanges"></textarea>
-    <div>
-      <div class="tab selected">Dave</div>
-      <div class="tab nonselected">Justin</div>
-    </div>
-    <table>
-      <thead>
-        <tr>
-          <th>Count</th>
-          <th>Product</th>
-          <th>Manufacturer</th>
-          <th>Items per Box</th>
-          <th>Boxes per Shelf</th>
-          <th>Quantity</th>
-          <th>Total</th>
-        </tr>
-      </thead>
-      <tbody>
-      </tbody>
-    </table>
+    <section>
+      <h2>Meat &amp; Dairy</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Count</th>
+            <th>Product</th>
+            <th>Manufacturer</th>
+            <th>Items per Box</th>
+            <th>Boxes per Shelf</th>
+            <th>Quantity</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody id="meatAndDairy">
+        </tbody>
+      </table>
+      <div class="tableButtons">
+        <button class="resetTable">Reset Table</button>
+        <button class="resetBlueAndGreen">Reset Blue and Green</button>
+      </div>
+    </section>
+    <section>
+      <h2>Green Market</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Count</th>
+            <th>Product</th>
+            <th>Manufacturer</th>
+            <th>Items per Box</th>
+            <th>Boxes per Shelf</th>
+            <th>Quantity</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody id="greenMarket">
+        </tbody>
+      </table>
+      <div class="tableButtons">
+        <button class="resetTable">Reset Table</button>
+        <button class="resetBlueAndGreen">Reset Blue and Green</button>
+      </div>
+    </section>
+    <section>
+      <h2>Janitorial Supply</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Count</th>
+            <th>Product</th>
+            <th>Manufacturer</th>
+            <th>Items per Box</th>
+            <th>Boxes per Shelf</th>
+            <th>Quantity</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody id="janitorialSupply">
+        </tbody>
+      </table>
+      <div class="tableButtons">
+        <button class="resetTable">Reset Table</button>
+        <button class="resetBlueAndGreen">Reset Blue and Green</button>
+      </div>
+    </section>
+    <section>
+      <h2>Liquor Store</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Count</th>
+            <th>Product</th>
+            <th>Manufacturer</th>
+            <th>Items per Box</th>
+            <th>Boxes per Shelf</th>
+            <th>Quantity</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody id="liquorStore">
+        </tbody>
+      </table>
+      <div class="tableButtons">
+        <button class="resetTable">Reset Table</button>
+        <button class="resetBlueAndGreen">Reset Blue and Green</button>
+      </div>
+    </section>
+    <section>
+      <h2>Deli &amp; Grocery</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Count</th>
+            <th>Product</th>
+            <th>Manufacturer</th>
+            <th>Items per Box</th>
+            <th>Boxes per Shelf</th>
+            <th>Quantity</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody id="deliAndGrocery">
+        </tbody>
+      </table>
+      <div class="tableButtons">
+        <button class="resetTable">Reset Table</button>
+        <button class="resetBlueAndGreen">Reset Blue and Green</button>
+      </div>
+    </section>
   </main>
   <footer>Copyright &copy; DaveInDC 2024</footer>
   <script src="supermarketData.js"></script>

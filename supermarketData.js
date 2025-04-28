@@ -2,1142 +2,1675 @@ const products = [
     {
         "Product": "Cereal",
         "Manufacturer": "Chokipik",
-        "J": 105,
+        "J": 17,
         "numInBox": 12,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "green"
     },
     {
         "Product": "Sliced Bread",
         "Manufacturer": "Ron's",
-        "J": 47,
+        "J": 30,
         "numInBox": 12,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "red"
     },
     {
         "Product": "Flour",
         "Manufacturer": "Kraftung",
-        "J": 8,
+        "J": 19,
         "numInBox": 8,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "red"
     },
     {
         "Product": "Oil",
         "Manufacturer": "Lespieds",
-        "J": 13,
+        "J": 25,
         "numInBox": 12,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "deliAndGrocery",
+        "color": "yellow"
     },
     {
         "Product": "Pasta",
         "Manufacturer": "Panzati",
-        "J": 122,
+        "J": 28,
         "numInBox": 8,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "red"
     },
     {
         "Product": "Sugar Powdered",
         "Manufacturer": "Susu",
-        "J": 27,
+        "J": 82,
         "numInBox": 12,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "red"
     },
     {
         "Product": "Bottled Water",
         "Manufacturer": "Aotte",
-        "J": 129,
+        "J": 37,
         "numInBox": 16,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "red"
     },
     {
         "Product": "Cheese",
         "Manufacturer": "Comte",
-        "J": 34,
+        "J": 15,
         "numInBox": 9,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "meatAndDairy",
+        "color": "red"
     },
     {
         "Product": "Coffee Dark Roast",
         "Manufacturer": "Narvalo",
-        "J": 114,
+        "J": 9,
         "numInBox": 8,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "deliAndGrocery",
+        "color": "green"
     },
     {
         "Product": "Eggs - 8 Pack",
         "Manufacturer": "Bio",
-        "J": 127,
+        "J": 2,
         "numInBox": 12,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "meatAndDairy",
+        "color": "yellow"
     },
     {
         "Product": "Milk",
         "Manufacturer": "Bourlait",
-        "J": 55,
+        "J": 1,
         "numInBox": 16,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "meatAndDairy",
+        "color": "yellow"
     },
     {
         "Product": "Tea Black",
         "Manufacturer": "TeaPalace",
-        "J": 117,
+        "J": 11,
         "numInBox": 20,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "deliAndGrocery",
+        "color": "green"
     },
     {
         "Product": "Peanut Butter",
         "Manufacturer": "PB's",
-        "J": 1,
+        "J": 75,
         "numInBox": 12,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "deliAndGrocery",
+        "color": "green"
     },
     {
         "Product": "Flour",
         "Manufacturer": "Farine",
-        "J": 9,
+        "J": 20,
         "numInBox": 8,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "green"
     },
     {
         "Product": "Olive Oil",
         "Manufacturer": "Tupiges",
-        "J": 14,
+        "J": 26,
         "numInBox": 12,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "deliAndGrocery",
+        "color": "green"
     },
     {
         "Product": "Pasta Spaghetti",
         "Manufacturer": "Elo",
-        "J": 123,
+        "J": 89,
         "numInBox": 8,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "green"
     },
     {
         "Product": "Rice Basmati",
         "Manufacturer": "Lustupacru",
-        "J": 49,
+        "J": 21,
         "numInBox": 10,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "deliAndGrocery",
+        "color": "green"
     },
     {
         "Product": "Salt",
         "Manufacturer": "Laba",
-        "J": 120,
+        "J": 31,
         "numInBox": 16,
-        "boxesOnShelf": 9
+        "boxesOnShelf": 9,
+        "market": "deliAndGrocery",
+        "color": "red"
     },
     {
         "Product": "Orange Juice",
         "Manufacturer": "Bio Juice",
-        "J": 53,
+        "J": 40,
         "numInBox": 16,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "red"
     },
     {
         "Product": "Soda",
         "Manufacturer": "Cola",
-        "J": 94,
+        "J": 35,
         "numInBox": 24,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "red"
     },
     {
         "Product": "Soda",
         "Manufacturer": "Zap",
-        "J": 95,
+        "J": 42,
         "numInBox": 24,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "red"
     },
     {
         "Product": "Apple Juice",
         "Manufacturer": "Bio Juice",
-        "J": 54,
+        "J": 41,
         "numInBox": 16,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "red"
     },
     {
         "Product": "Milk - 6 Pack",
         "Manufacturer": "Labol",
-        "J": 108,
+        "J": 9,
         "numInBox": 6,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "meatAndDairy",
+        "color": "yellow"
     },
     {
         "Product": "Soda",
         "Manufacturer": "Turko",
-        "J": 96,
+        "J": 36,
         "numInBox": 24,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "red"
     },
     {
         "Product": "Cake",
         "Manufacturer": "Bon Papa",
-        "J": 140,
+        "J": 14,
         "numInBox": 15,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "deliAndGrocery",
+        "color": "red"
     },
     {
         "Product": "Cake",
         "Manufacturer": "Pepites",
-        "J": 141,
+        "J": 97,
         "numInBox": 18,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "deliAndGrocery",
+        "color": "green"
     },
     {
         "Product": "Candy",
         "Manufacturer": "Bonbek",
-        "J": 112,
+        "J": 85,
         "numInBox": 12,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "deliAndGrocery",
+        "color": "yellow"
     },
     {
         "Product": "Cereal",
         "Manufacturer": "Crispy Chibi",
-        "J": 106,
+        "J": 15,
         "numInBox": 12,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "yellow"
     },
     {
         "Product": "Chocolate Bar",
         "Manufacturer": "Chocotte",
-        "J": 113,
+        "J": 86,
         "numInBox": 12,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "deliAndGrocery",
+        "color": "red"
     },
     {
         "Product": "Yoghurt",
         "Manufacturer": "Frugen",
-        "J": 56,
+        "J": 6,
         "numInBox": 30,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "deliAndGrocery",
+        "color": "yellow"
     },
     {
         "Product": "Bleach",
         "Manufacturer": "Jaja Vevel",
-        "J": 80,
+        "J": 19,
         "numInBox": 8,
-        "boxesOnShelf": 1
+        "boxesOnShelf": 1,
+        "market": "janitorialSupply",
+        "color": "yellow"
     },
     {
         "Product": "Cleaner",
         "Manufacturer": "Touprop",
-        "J": 64,
+        "J": 6,
         "numInBox": 12,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "janitorialSupply",
+        "color": "green"
     },
     {
         "Product": "Dishwasher Tablet",
         "Manufacturer": "Cleandish",
-        "J": 78,
+        "J": 14,
         "numInBox": 12,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "janitorialSupply",
+        "color": "blue"
     },
     {
         "Product": "Hand Soap",
         "Manufacturer": "Savion",
-        "J": 74,
+        "J": 9,
         "numInBox": 12,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "janitorialSupply",
+        "color": "red"
     },
     {
         "Product": "Shampoo",
         "Manufacturer": "Kaya",
-        "J": 77,
+        "J": 10,
         "numInBox": 12,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "janitorialSupply",
+        "color": "green"
     },
     {
         "Product": "Toiletpaper",
         "Manufacturer": "Poudou",
-        "J": 70,
+        "J": 18,
         "numInBox": 4,
-        "boxesOnShelf": 1
+        "boxesOnShelf": 1,
+        "market": "janitorialSupply",
+        "color": "green"
     },
     {
         "Product": "Cheese Mozarella",
         "Manufacturer": "Don Bernardo",
-        "J": 35,
+        "J": 14,
         "numInBox": 9,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "meatAndDairy",
+        "color": "yellow"
     },
     {
         "Product": "Cheese Parmesan",
         "Manufacturer": "Don Bernardo",
-        "J": 36,
+        "J": 12,
         "numInBox": 9,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "meatAndDairy",
+        "color": "green"
     },
     {
         "Product": "Honey",
         "Manufacturer": "Hone",
-        "J": 119,
+        "J": 76,
         "numInBox": 12,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "deliAndGrocery",
+        "color": "green"
     },
     {
         "Product": "Tuna",
         "Manufacturer": "Stark",
-        "J": 109,
+        "J": 16,
         "numInBox": 16,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "meatAndDairy",
+        "color": "green"
     },
     {
         "Product": "Eggs - 4 Pack",
         "Manufacturer": "Bio",
-        "J": 126,
+        "J": 3,
         "numInBox": 12,
-        "boxesOnShelf": 9
+        "boxesOnShelf": 9,
+        "market": "meatAndDairy",
+        "color": "yellow"
     },
     {
         "Product": "Sugar Powdered",
         "Manufacturer": "Pablo",
-        "J": 29,
+        "J": 93,
         "numInBox": 12,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "deliAndGrocery",
+        "color": "green"
     },
     {
         "Product": "Butter",
         "Manufacturer": "Paysans",
-        "J": 12,
+        "J": 27,
         "numInBox": 24,
-        "boxesOnShelf": 9
+        "boxesOnShelf": 9,
+        "market": "deliAndGrocery",
+        "color": "green"
     },
     {
         "Product": "Cereal",
         "Manufacturer": "Honey Bees",
-        "J": 107,
+        "J": 16,
         "numInBox": 12,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "green"
     },
     {
         "Product": "Chicken",
         "Manufacturer": "Mwef",
-        "J": 11,
+        "J": 8,
         "numInBox": 4,
-        "boxesOnShelf": 1
+        "boxesOnShelf": 1,
+        "market": "meatAndDairy",
+        "color": "green"
     },
     {
         "Product": "French Fries",
         "Manufacturer": "Vandame's",
-        "J": 63,
+        "J": 71,
         "numInBox": 12,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "green"
     },
     {
         "Product": "Pizza Mixed",
         "Manufacturer": "DeNiro",
-        "J": 60,
+        "J": 69,
         "numInBox": 32,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "green"
     },
     {
         "Product": "Potato Bag",
         "Manufacturer": "Miam",
-        "J": 15,
+        "J": 59,
         "numInBox": 4,
-        "boxesOnShelf": 1
+        "boxesOnShelf": 1,
+        "market": "deliAndGrocery",
+        "color": "red"
     },
     {
         "Product": "Cheese",
         "Manufacturer": "Mimolette",
-        "J": 37,
+        "J": 13,
         "numInBox": 9,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "meatAndDairy",
+        "color": "yellow"
     },
     {
         "Product": "Coffee Light Roast",
         "Manufacturer": "Narvalo",
-        "J": 115,
+        "J": 8,
         "numInBox": 8,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "deliAndGrocery",
+        "color": "green"
     },
     {
         "Product": "Bottled Water",
         "Manufacturer": "Montcuq",
-        "J": 130,
+        "J": 38,
         "numInBox": 16,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "red"
     },
     {
         "Product": "Eggs - 12 Pack",
         "Manufacturer": "Bio",
-        "J": 128,
+        "J": 4,
         "numInBox": 12,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "meatAndDairy",
+        "color": "green"
     },
     {
         "Product": "Pasta Elbows",
         "Manufacturer": "Lustupacru",
-        "J": 124,
+        "J": 90,
         "numInBox": 8,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "green"
     },
     {
         "Product": "Sugar Brown",
         "Manufacturer": "Susu",
-        "J": 28,
+        "J": 83,
         "numInBox": 12,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "green"
     },
     {
         "Product": "Tea Green",
         "Manufacturer": "TeaPalace",
-        "J": 118,
+        "J": 10,
         "numInBox": 20,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "deliAndGrocery",
+        "color": "green"
     },
     {
         "Product": "Moussaka",
         "Manufacturer": "Ronpoint",
-        "J": 21,
+        "J": 95,
         "numInBox": 24,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "blue"
     },
     {
         "Product": "Salmon",
         "Manufacturer": "NordicHarbor",
-        "J": 25,
+        "J": 19,
         "numInBox": 20,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "meatAndDairy",
+        "color": "blue"
     },
     {
         "Product": "Scallop Gratin",
         "Manufacturer": "Prypiat",
-        "J": 19,
+        "J": 102,
         "numInBox": 24,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "green"
     },
     {
         "Product": "Steak",
         "Manufacturer": "Bovora",
-        "J": 41,
+        "J": 6,
         "numInBox": 32,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "meatAndDairy",
+        "color": "blue"
     },
     {
         "Product": "Sushi Large",
         "Manufacturer": "Ulego",
-        "J": 46,
+        "J": 20,
         "numInBox": 8,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "meatAndDairy",
+        "color": "blue"
     },
     {
         "Product": "Sushi Small",
         "Manufacturer": "Ulego",
-        "J": 45,
+        "J": 21,
         "numInBox": 16,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "meatAndDairy",
+        "color": "blue"
     },
     {
         "Product": "Veal Chop",
         "Manufacturer": "Bovora",
-        "J": 40,
+        "J": 18,
         "numInBox": 32,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "meatAndDairy",
+        "color": "blue"
     },
     {
         "Product": "Crab Stick",
         "Manufacturer": "Sans",
-        "J": 20,
+        "J": 33,
         "numInBox": 24,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "green"
     },
     {
         "Product": "Hot Sauce",
         "Manufacturer": "Hothot",
         "J": 2,
         "numInBox": 12,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "deliAndGrocery",
+        "color": "yellow"
     },
     {
         "Product": "Icecream Chocolate",
         "Manufacturer": "MaxiCone",
-        "J": 6,
+        "J": 68,
         "numInBox": 24,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "blue"
     },
     {
         "Product": "Ketchup",
         "Manufacturer": "Kekette",
         "J": 3,
         "numInBox": 12,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "deliAndGrocery",
+        "color": "yellow"
     },
     {
         "Product": "Mayonnaise",
         "Manufacturer": "Yoyo",
-        "J": 4,
+        "J": 1,
         "numInBox": 12,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "deliAndGrocery",
+        "color": "green"
     },
     {
         "Product": "Pizza Cheddar",
         "Manufacturer": "ChezzyPizz",
-        "J": 61,
+        "J": 70,
         "numInBox": 32,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "blue"
     },
     {
         "Product": "Beer Blonde Ale - 6 Pack",
         "Manufacturer": "Fess",
-        "J": 87,
+        "J": 10,
         "numInBox": 18,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "liquorStore",
+        "color": "blue"
     },
     {
         "Product": "Beer Blonde Ale - Keg",
         "Manufacturer": "Fess",
-        "J": 93,
+        "J": 11,
         "numInBox": 6,
-        "boxesOnShelf": 1
+        "boxesOnShelf": 1,
+        "market": "liquorStore",
+        "color": "blue"
     },
     {
         "Product": "Beer Blond Ale",
         "Manufacturer": "Fess",
-        "J": 90,
+        "J": 14,
         "numInBox": 15,
-        "boxesOnShelf": 9
+        "boxesOnShelf": 9,
+        "market": "liquorStore",
+        "color": "yellow"
     },
     {
         "Product": "Beer Lager",
         "Manufacturer": "Teochew",
-        "J": 91,
+        "J": 7,
         "numInBox": 15,
-        "boxesOnShelf": 9
+        "boxesOnShelf": 9,
+        "market": "liquorStore",
+        "color": "green"
     },
     {
         "Product": "Chips",
         "Manufacturer": "Covidos",
-        "J": 16,
+        "J": 80,
         "numInBox": 16,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "green"
     },
     {
         "Product": "Houmus",
         "Manufacturer": "Bibi",
-        "J": 110,
+        "J": 34,
         "numInBox": 16,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "green"
     },
     {
         "Product": "Vodka",
         "Manufacturer": "Eay",
-        "J": 84,
+        "J": 17,
         "numInBox": 12,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "liquorStore",
+        "color": "green"
     },
     {
         "Product": "Chips",
         "Manufacturer": "Chipos",
-        "J": 17,
+        "J": 79,
         "numInBox": 16,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "green"
     },
     {
         "Product": "Flour",
         "Manufacturer": "Sublett's",
-        "J": 10,
+        "J": 18,
         "numInBox": 8,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "green"
     },
     {
         "Product": "Mashed Potatoes",
         "Manufacturer": "Puray",
-        "J": 52,
+        "J": 23,
         "numInBox": 12,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "deliAndGrocery",
+        "color": "green"
     },
     {
         "Product": "Pepper",
         "Manufacturer": "Afyon",
-        "J": 121,
+        "J": 32,
         "numInBox": 16,
-        "boxesOnShelf": 9
+        "boxesOnShelf": 9,
+        "market": "deliAndGrocery",
+        "color": "green"
     },
     {
         "Product": "Rice",
         "Manufacturer": "Elo",
-        "J": 50,
+        "J": 22,
         "numInBox": 10,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "deliAndGrocery",
+        "color": "yellow"
     },
     {
         "Product": "Sandwich Bread",
         "Manufacturer": "Ron's",
-        "J": 48,
+        "J": 29,
         "numInBox": 8,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "red"
     },
     {
         "Product": "Sugar Powdered",
         "Manufacturer": "Boully",
-        "J": 30,
+        "J": 84,
         "numInBox": 12,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "deliAndGrocery",
+        "color": "green"
     },
     {
         "Product": "Bleach",
         "Manufacturer": "WC Boeff",
-        "J": 81,
+        "J": 13,
         "numInBox": 6,
-        "boxesOnShelf": 1
+        "boxesOnShelf": 1,
+        "market": "janitorialSupply",
+        "color": "yellow"
     },
     {
         "Product": "Cleaner",
         "Manufacturer": "Kilemol",
-        "J": 65,
+        "J": 7,
         "numInBox": 12,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "janitorialSupply",
+        "color": "green"
     },
     {
         "Product": "Dishwasher Tablet",
         "Manufacturer": "Boum",
-        "J": 79,
+        "J": 11,
         "numInBox": 12,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "janitorialSupply",
+        "color": "blue"
     },
     {
         "Product": "Cleaner",
         "Manufacturer": "Yamo",
-        "J": 68,
+        "J": 5,
         "numInBox": 12,
-        "boxesOnShelf": 1
+        "boxesOnShelf": 1,
+        "market": "janitorialSupply",
+        "color": "green"
     },
     {
         "Product": "Dish Soap Durian",
         "Manufacturer": "Sapu",
-        "J": 75,
+        "J": 21,
         "numInBox": 12,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "janitorialSupply",
+        "color": "green"
     },
     {
         "Product": "Toiletpaper",
         "Manufacturer": "Bidet",
-        "J": 69,
+        "J": 16,
         "numInBox": 4,
-        "boxesOnShelf": 1
+        "boxesOnShelf": 1,
+        "market": "janitorialSupply",
+        "color": "green"
     },
     {
         "Product": "Coffee Medium Roast",
         "Manufacturer": "Narvalo",
-        "J": 116,
+        "J": 7,
         "numInBox": 8,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "deliAndGrocery",
+        "color": "green"
     },
     {
         "Product": "Soda",
         "Manufacturer": "JusTsistu",
-        "J": 97,
+        "J": 43,
         "numInBox": 24,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "red"
     },
     {
         "Product": "Soda",
         "Manufacturer": "Kouje",
-        "J": 98,
+        "J": 45,
         "numInBox": 24,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "yellow"
     },
     {
         "Product": "Soda",
         "Manufacturer": "Pulp",
-        "J": 99,
+        "J": 44,
         "numInBox": 24,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "red"
     },
     {
         "Product": "Soda",
         "Manufacturer": "Ropico",
-        "J": 100,
+        "J": 46,
         "numInBox": 24,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "green"
     },
     {
         "Product": "Sugar Light Brown",
         "Manufacturer": "Daron",
-        "J": 32,
+        "J": 92,
         "numInBox": 12,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "deliAndGrocery",
+        "color": "green"
     },
     {
         "Product": "Galette Ham & Cheese",
         "Manufacturer": "Prypiat",
-        "J": 24,
+        "J": 101,
         "numInBox": 24,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "blue"
     },
     {
         "Product": "Ground Beef",
         "Manufacturer": "Bovora",
-        "J": 42,
+        "J": 5,
         "numInBox": 20,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "meatAndDairy",
+        "color": "green"
     },
     {
         "Product": "Ham Pastry",
         "Manufacturer": "Ronpoint",
-        "J": 22,
+        "J": 96,
         "numInBox": 24,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "blue"
     },
     {
         "Product": "Ham",
         "Manufacturer": "B&K",
-        "J": 43,
+        "J": 23,
         "numInBox": 20,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "meatAndDairy",
+        "color": "green"
     },
     {
         "Product": "Lasagne",
         "Manufacturer": "Ronpoint",
-        "J": 23,
+        "J": 99,
         "numInBox": 24,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "blue"
     },
     {
         "Product": "Proscuito",
         "Manufacturer": "Sapore",
-        "J": 26,
+        "J": 22,
         "numInBox": 20,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "meatAndDairy",
+        "color": "green"
     },
     {
         "Product": "Chicken Leg",
         "Manufacturer": "Bovora",
-        "J": 44,
+        "J": 7,
         "numInBox": 16,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "meatAndDairy",
+        "color": "green"
     },
     {
         "Product": "Green Beans",
         "Manufacturer": "MrBean",
-        "J": 82,
+        "J": 73,
         "numInBox": 12,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "red"
     },
     {
         "Product": "Icecream Vanilla",
         "Manufacturer": "MaxiCone",
-        "J": 7,
+        "J": 65,
         "numInBox": 24,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "green"
     },
     {
         "Product": "Icecream",
         "Manufacturer": "Bonbek",
-        "J": 5,
+        "J": 67,
         "numInBox": 24,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "blue"
     },
     {
         "Product": "Pizza",
         "Manufacturer": "Bigtony",
-        "J": 62,
+        "J": 66,
         "numInBox": 32,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "blue"
     },
     {
         "Product": "Potato Pops",
         "Manufacturer": "Spok",
-        "J": 58,
+        "J": 74,
         "numInBox": 12,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "green"
     },
     {
         "Product": "Veggie Mix",
         "Manufacturer": "Ege",
-        "J": 83,
+        "J": 72,
         "numInBox": 12,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "green"
     },
     {
         "Product": "Beer Blonde Ale",
         "Manufacturer": "BK",
-        "J": 92,
+        "J": 16,
         "numInBox": 15,
-        "boxesOnShelf": 9
+        "boxesOnShelf": 9,
+        "market": "liquorStore",
+        "color": "yellow"
     },
     {
         "Product": "Beer Lager - 6 Pack",
         "Manufacturer": "Teochew",
-        "J": 88,
+        "J": 9,
         "numInBox": 18,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "liquorStore",
+        "color": "blue"
     },
     {
         "Product": "Beer Lager - Keg",
         "Manufacturer": "Teochew",
-        "J": 89,
+        "J": 12,
         "numInBox": 6,
-        "boxesOnShelf": 1
+        "boxesOnShelf": 1,
+        "market": "liquorStore",
+        "color": "blue"
     },
     {
         "Product": "Vodka",
         "Manufacturer": "Magnat",
-        "J": 85,
+        "J": 15,
         "numInBox": 12,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "liquorStore",
+        "color": "green"
     },
     {
         "Product": "Whiskey",
         "Manufacturer": "Grand Marnier",
-        "J": 86,
+        "J": 6,
         "numInBox": 12,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "liquorStore",
+        "color": "blue"
     },
     {
         "Product": "Wine",
         "Manufacturer": "Chebon",
-        "J": 104,
+        "J": 2,
         "numInBox": 12,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "liquorStore",
+        "color": "blue"
     },
     {
         "Product": "Cheese Parmesan",
         "Manufacturer": "Eros",
-        "J": 38,
+        "J": 11,
         "numInBox": 9,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "meatAndDairy",
+        "color": "green"
     },
     {
         "Product": "Cheese",
         "Manufacturer": "Gruyere",
-        "J": 39,
+        "J": 10,
         "numInBox": 9,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "meatAndDairy",
+        "color": "green"
     },
     {
         "Product": "Clotted Cream",
         "Manufacturer": "Etron",
-        "J": 111,
+        "J": 17,
         "numInBox": 16,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "meatAndDairy",
+        "color": "blue"
     },
     {
         "Product": "Pasta Penne",
         "Manufacturer": "Parillo",
-        "J": 125,
+        "J": 91,
         "numInBox": 8,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "red"
     },
     {
         "Product": "Rice",
         "Manufacturer": "UncleTony's",
-        "J": 51,
+        "J": 24,
         "numInBox": 10,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "deliAndGrocery",
+        "color": "green"
     },
     {
         "Product": "Sugar Cane",
         "Manufacturer": "Daron",
-        "J": 31,
+        "J": 81,
         "numInBox": 12,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "red"
     },
     {
         "Product": "Yoghurt",
         "Manufacturer": "Madone",
-        "J": 57,
+        "J": 4,
         "numInBox": 30,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "deliAndGrocery",
+        "color": "red"
     },
     {
         "Product": "Cleaner",
         "Manufacturer": "Wesh",
-        "J": 66,
+        "J": 8,
         "numInBox": 12,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "janitorialSupply",
+        "color": "green"
     },
     {
         "Product": "Dishwasher Tablet",
         "Manufacturer": "Cemagik",
-        "J": 59,
+        "J": 12,
         "numInBox": 8,
-        "boxesOnShelf": 1
+        "boxesOnShelf": 1,
+        "market": "janitorialSupply",
+        "color": "green"
     },
     {
         "Product": "Dish Soap Lemon",
         "Manufacturer": "Mouss",
-        "J": 76,
+        "J": 20,
         "numInBox": 12,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "janitorialSupply",
+        "color": "green"
     },
     {
         "Product": "Fabric Softener",
         "Manufacturer": "Souplesse",
-        "J": 71,
+        "J": 4,
         "numInBox": 12,
-        "boxesOnShelf": 1
+        "boxesOnShelf": 1,
+        "market": "janitorialSupply",
+        "color": "green"
     },
     {
         "Product": "Book",
         "Manufacturer": "ABC",
-        "J": 132,
+        "J": 47,
         "numInBox": 8,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "deliAndGrocery",
+        "color": "yellow"
     },
     {
         "Product": "Book",
         "Manufacturer": "Colors",
-        "J": 133,
+        "J": 57,
         "numInBox": 8,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "deliAndGrocery",
+        "color": "yellow"
     },
     {
         "Product": "Book",
         "Manufacturer": "Donnine",
-        "J": 134,
+        "J": 58,
         "numInBox": 8,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "deliAndGrocery",
+        "color": "green"
     },
     {
         "Product": "Book",
         "Manufacturer": "Electromagnetic Field",
-        "J": 135,
+        "J": 50,
         "numInBox": 8,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "deliAndGrocery",
+        "color": "yellow"
     },
     {
         "Product": "Book",
         "Manufacturer": "I Won't Share",
-        "J": 136,
+        "J": 53,
         "numInBox": 8,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "deliAndGrocery",
+        "color": "red"
     },
     {
         "Product": "Book",
         "Manufacturer": "Mother And Child",
-        "J": 137,
+        "J": 52,
         "numInBox": 8,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "deliAndGrocery",
+        "color": "green"
     },
     {
         "Product": "Cleaner",
         "Manufacturer": "Le Triangle",
-        "J": 67,
+        "J": 3,
         "numInBox": 12,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "janitorialSupply",
+        "color": "yellow"
     },
     {
         "Product": "Cat Food",
         "Manufacturer": "Miaoumiam",
-        "J": 101,
+        "J": 63,
         "numInBox": 12,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "red"
     },
     {
         "Product": "Cat Food",
         "Manufacturer": "Patpat",
-        "J": 102,
+        "J": 62,
         "numInBox": 12,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "red"
     },
     {
         "Product": "Dog Food",
         "Manufacturer": "Patpat",
-        "J": 103,
+        "J": 64,
         "numInBox": 16,
-        "boxesOnShelf": 1
+        "boxesOnShelf": 1,
+        "market": "deliAndGrocery",
+        "color": "blue"
     },
     {
         "Product": "Cake",
         "Manufacturer": "Gerbe",
-        "J": 142,
+        "J": 12,
         "numInBox": 15,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "deliAndGrocery",
+        "color": "blue"
     },
     {
         "Product": "Cake",
         "Manufacturer": "Marbre",
-        "J": 143,
+        "J": 100,
         "numInBox": 18,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "deliAndGrocery",
+        "color": "green"
     },
     {
         "Product": "Chips",
         "Manufacturer": "Vin's",
-        "J": 18,
+        "J": 78,
         "numInBox": 16,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "yellow"
     },
     {
         "Product": "Chocolate Spread",
         "Manufacturer": "Patatartine",
-        "J": 0,
+        "J": 77,
         "numInBox": 12,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "deliAndGrocery",
+        "color": "yellow"
     },
     {
         "Product": "Soda Can - 6 Pack",
         "Manufacturer": "Cola",
-        "J": 138,
+        "J": 60,
         "numInBox": 24,
-        "boxesOnShelf": 1
+        "boxesOnShelf": 1,
+        "market": "deliAndGrocery",
+        "color": "green"
     },
     {
         "Product": "Soda Can - 6 Pack",
         "Manufacturer": "Zap",
-        "J": 139,
+        "J": 61,
         "numInBox": 24,
-        "boxesOnShelf": 1
+        "boxesOnShelf": 1,
+        "market": "deliAndGrocery",
+        "color": "green"
     },
     {
         "Product": "Bottled Water",
         "Manufacturer": "Fort-lacs",
-        "J": 131,
+        "J": 39,
         "numInBox": 16,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "deliAndGrocery",
+        "color": "red"
     },
     {
         "Product": "Fabric Softener",
         "Manufacturer": "Toudou",
-        "J": 72,
+        "J": 2,
         "numInBox": 12,
-        "boxesOnShelf": 1
+        "boxesOnShelf": 1,
+        "market": "janitorialSupply",
+        "color": "green"
     },
     {
         "Product": "Paper Towel",
         "Manufacturer": "Compact",
-        "J": 144,
+        "J": 17,
         "numInBox": 4,
-        "boxesOnShelf": 1
+        "boxesOnShelf": 1,
+        "market": "janitorialSupply",
+        "color": "green"
     },
     {
         "Product": "Toiletpaper",
         "Manufacturer": "Petus",
-        "J": 73,
+        "J": 15,
         "numInBox": 4,
-        "boxesOnShelf": 1
+        "boxesOnShelf": 1,
+        "market": "janitorialSupply",
+        "color": "green"
     },
     {
         "Product": "Toothpaste",
         "Manufacturer": "Signoulos",
-        "J": 33,
+        "J": 1,
         "numInBox": 24,
-        "boxesOnShelf": 9
+        "boxesOnShelf": 9,
+        "market": "janitorialSupply",
+        "color": "green"
     },
     {
         "Product": "Book",
         "Manufacturer": "Krok",
-        "J": null,
+        "J": 54,
         "numInBox": 8,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "deliAndGrocery",
+        "color": "yellow"
     },
     {
         "Product": "Book",
         "Manufacturer": "Once Upon A Time",
-        "J": null,
+        "J": 51,
         "numInBox": 8,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "deliAndGrocery",
+        "color": "yellow"
     },
     {
         "Product": "Book",
         "Manufacturer": "Piticha",
-        "J": null,
+        "J": 49,
         "numInBox": 8,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "deliAndGrocery",
+        "color": "green"
     },
     {
         "Product": "Book",
         "Manufacturer": "The Surprise",
-        "J": null,
+        "J": 48,
         "numInBox": 8,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "deliAndGrocery",
+        "color": "yellow"
     },
     {
         "Product": "Book",
         "Manufacturer": "Vintage Storybook",
-        "J": null,
+        "J": 55,
         "numInBox": 8,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "deliAndGrocery",
+        "color": "green"
     },
     {
         "Product": "Book",
         "Manufacturer": "Wombat",
-        "J": null,
+        "J": 56,
         "numInBox": 8,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "deliAndGrocery",
+        "color": "yellow"
     },
     {
         "Product": "Cake",
         "Manufacturer": "Prairie",
-        "J": null,
+        "J": 98,
         "numInBox": 18,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "deliAndGrocery",
+        "color": "green"
     },
     {
         "Product": "Cake",
         "Manufacturer": "St Michmich",
-        "J": null,
+        "J": 13,
         "numInBox": 15,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "deliAndGrocery",
+        "color": "blue"
     },
     {
         "Product": "Chocolate Bar",
         "Manufacturer": "Denorme",
-        "J": null,
+        "J": 87,
         "numInBox": 12,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "deliAndGrocery",
+        "color": "red"
     },
     {
         "Product": "Chocolate Powder",
         "Manufacturer": "Boudain",
-        "J": null,
+        "J": 88,
         "numInBox": 16,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "deliAndGrocery",
+        "color": "yellow"
     },
     {
         "Product": "Sugar",
         "Manufacturer": "Daron",
-        "J": null,
+        "J": 94,
         "numInBox": 12,
-        "boxesOnShelf": 6
+        "boxesOnShelf": 6,
+        "market": "deliAndGrocery",
+        "color": "green"
     },
     {
         "Product": "Yoghurt",
         "Manufacturer": "Yowp",
-        "J": null,
+        "J": 5,
         "numInBox": 30,
-        "boxesOnShelf": 9
+        "boxesOnShelf": 9,
+        "market": "deliAndGrocery",
+        "color": "green"
     },
     {
         "Product": "Beer Blonde Ale - 6 Pack",
         "Manufacturer": "BK",
-        "J": null,
+        "J": 8,
         "numInBox": 18,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "liquorStore",
+        "color": "blue"
     },
     {
         "Product": "Beer Blonde Ale - Keg",
         "Manufacturer": "Dehl",
-        "J": null,
+        "J": 13,
         "numInBox": 6,
-        "boxesOnShelf": 1
+        "boxesOnShelf": 1,
+        "market": "liquorStore",
+        "color": "blue"
     },
     {
         "Product": "Whiskey",
         "Manufacturer": "Jack Sublett",
-        "J": null,
+        "J": 5,
         "numInBox": 12,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "liquorStore",
+        "color": "blue"
     },
     {
         "Product": "Whiskey",
         "Manufacturer": "Japanese",
-        "J": null,
+        "J": 4,
         "numInBox": 12,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "liquorStore",
+        "color": "blue"
     },
     {
         "Product": "Wine",
         "Manufacturer": "Heng",
-        "J": null,
+        "J": 3,
         "numInBox": 12,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "liquorStore",
+        "color": "green"
     },
     {
         "Product": "Wine",
         "Manufacturer": "Pouilleux",
-        "J": null,
+        "J": 1,
         "numInBox": 12,
-        "boxesOnShelf": 2
+        "boxesOnShelf": 2,
+        "market": "liquorStore",
+        "color": "green"
+    },
+    {
+        "Product": "Squash",
+        "Manufacturer": "-",
+        "J": 1,
+        "numInBox": 1,
+        "boxesOnShelf": 4,
+        "market": "greenMarket",
+        "color": "green"
+    },
+    {
+        "Product": "Zuccini",
+        "Manufacturer": "-",
+        "J": 2,
+        "numInBox": 1,
+        "boxesOnShelf": 4,
+        "market": "greenMarket",
+        "color": "green"
+    },
+    {
+        "Product": "Tomato",
+        "Manufacturer": "-",
+        "J": 3,
+        "numInBox": 1,
+        "boxesOnShelf": 4,
+        "market": "greenMarket",
+        "color": "green"
+    },
+    {
+        "Product": "Banana",
+        "Manufacturer": "-",
+        "J": 4,
+        "numInBox": 1,
+        "boxesOnShelf": 4,
+        "market": "greenMarket",
+        "color": "red"
+    },
+    {
+        "Product": "Avocado",
+        "Manufacturer": "-",
+        "J": 5,
+        "numInBox": 1,
+        "boxesOnShelf": 4,
+        "market": "greenMarket",
+        "color": "green"
+    },
+    {
+        "Product": "Apple",
+        "Manufacturer": "-",
+        "J": 6,
+        "numInBox": 1,
+        "boxesOnShelf": 4,
+        "market": "greenMarket",
+        "color": "green"
+    },
+    {
+        "Product": "Lemon",
+        "Manufacturer": "-",
+        "J": 7,
+        "numInBox": 1,
+        "boxesOnShelf": 4,
+        "market": "greenMarket",
+        "color": "green"
+    },
+    {
+        "Product": "Kiwi",
+        "Manufacturer": "-",
+        "J": 8,
+        "numInBox": 1,
+        "boxesOnShelf": 4,
+        "market": "greenMarket",
+        "color": "green"
+    },
+    {
+        "Product": "Mango",
+        "Manufacturer": "-",
+        "J": 9,
+        "numInBox": 1,
+        "boxesOnShelf": 4,
+        "market": "greenMarket",
+        "color": "green"
+    },
+    {
+        "Product": "Clementine",
+        "Manufacturer": "-",
+        "J": 10,
+        "numInBox": 1,
+        "boxesOnShelf": 4,
+        "market": "greenMarket",
+        "color": "red"
+    },
+    {
+        "Product": "Potato",
+        "Manufacturer": "-",
+        "J": 11,
+        "numInBox": 1,
+        "boxesOnShelf": 4,
+        "market": "greenMarket",
+        "color": "red"
+    },
+    {
+        "Product": "Pear",
+        "Manufacturer": "-",
+        "J": 12,
+        "numInBox": 1,
+        "boxesOnShelf": 4,
+        "market": "greenMarket",
+        "color": "red"
+    },
+    {
+        "Product": "Watermelon",
+        "Manufacturer": "-",
+        "J": 13,
+        "numInBox": 1,
+        "boxesOnShelf": 4,
+        "market": "greenMarket",
+        "color": "yellow"
+    },
+    {
+        "Product": "Melon",
+        "Manufacturer": "-",
+        "J": 14,
+        "numInBox": 1,
+        "boxesOnShelf": 4,
+        "market": "greenMarket",
+        "color": "green"
+    },
+    {
+        "Product": "Pineapple",
+        "Manufacturer": "-",
+        "J": 15,
+        "numInBox": 1,
+        "boxesOnShelf": 4,
+        "market": "greenMarket",
+        "color": "red"
+    },
+    {
+        "Product": "Papaya",
+        "Manufacturer": "-",
+        "J": 16,
+        "numInBox": 1,
+        "boxesOnShelf": 4,
+        "market": "greenMarket",
+        "color": "green"
+    },
+    {
+        "Product": "Onion",
+        "Manufacturer": "-",
+        "J": 17,
+        "numInBox": 1,
+        "boxesOnShelf": 4,
+        "market": "greenMarket",
+        "color": "yellow"
+    },
+    {
+        "Product": "Mushroom",
+        "Manufacturer": "-",
+        "J": 18,
+        "numInBox": 1,
+        "boxesOnShelf": 4,
+        "market": "greenMarket",
+        "color": "red"
+    },
+    {
+        "Product": "Grapefruit",
+        "Manufacturer": "-",
+        "J": 19,
+        "numInBox": 1,
+        "boxesOnShelf": 4,
+        "market": "greenMarket",
+        "color": "red"
+    },
+    {
+        "Product": "Garlic",
+        "Manufacturer": "-",
+        "J": 20,
+        "numInBox": 1,
+        "boxesOnShelf": 4,
+        "market": "greenMarket",
+        "color": "green"
+    },
+    {
+        "Product": "Carrot",
+        "Manufacturer": "-",
+        "J": 21,
+        "numInBox": 1,
+        "boxesOnShelf": 4,
+        "market": "greenMarket",
+        "color": "red"
+    },
+    {
+        "Product": "Artichoke",
+        "Manufacturer": "-",
+        "J": 22,
+        "numInBox": 1,
+        "boxesOnShelf": 4,
+        "market": "greenMarket",
+        "color": "green"
+    },
+    {
+        "Product": "Pumpkin",
+        "Manufacturer": "-",
+        "J": 23,
+        "numInBox": 1,
+        "boxesOnShelf": 4,
+        "market": "greenMarket",
+        "color": "yellow"
     }
 ]
